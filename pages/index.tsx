@@ -1,4 +1,5 @@
-import { Flex, Heading } from "@chakra-ui/react";
+import { Flex, Link } from "@chakra-ui/react";
+import NextLink from "next/link";
 
 const Home = () => {
   return (
@@ -8,7 +9,11 @@ const Home = () => {
       justifyContent="center"
       alignItems="center"
     >
-      <Heading>Hello Motion</Heading>
+      <Flex direction="column" color="white" fontSize="24px">
+        <NextLink href="/animation" passHref>
+          <Link>animation</Link>
+        </NextLink>
+      </Flex>
     </Flex>
   );
 };

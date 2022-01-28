@@ -16,6 +16,9 @@ const Home = () => {
         <NextLink href="/variants" passHref>
           <Link>variants</Link>
         </NextLink>
+        <NextLink href="/gestures" passHref>
+          <Link>gestures</Link>
+        </NextLink>
       </Flex>
     </Flex>
   );

@@ -28,6 +28,9 @@ const Home = () => {
         <NextLink href="/animatePresence" passHref>
           <Link>AnimatePresence</Link>
         </NextLink>
+        <NextLink href="/slider" passHref>
+          <Link>slider</Link>
+        </NextLink>
       </Flex>
     </Flex>
   );

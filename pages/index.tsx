@@ -25,6 +25,9 @@ const Home = () => {
         <NextLink href="/svg" passHref>
           <Link>SVG</Link>
         </NextLink>
+        <NextLink href="/animatePresence" passHref>
+          <Link>AnimatePresence</Link>
+        </NextLink>
       </Flex>
     </Flex>
   );

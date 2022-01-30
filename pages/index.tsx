@@ -31,8 +31,8 @@ const Home = () => {
         <NextLink href="/slider" passHref>
           <Link>slider</Link>
         </NextLink>
-        <NextLink href="/layout" passHref>
-          <Link>layout</Link>
+        <NextLink href="/final" passHref>
+          <Link>final</Link>
         </NextLink>
       </Flex>
     </Flex>
